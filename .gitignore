@@ -1,0 +1,13 @@
+node_modules/
+.next/
+dist/
+*.log
+.env
+.env.*
+.vercel
+
+# 由 scripts/sync-data.mjs 於 dev/build 前產生（來源：data/milkyway-spots.json）
+lib/spots-data.json
+
+next-env.d.ts
+tsconfig.tsbuildinfo
