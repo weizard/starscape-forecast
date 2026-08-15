@@ -10,6 +10,10 @@ export const LOCALE_LABEL: Record<Locale, string> = {
 const zhTW = {
   // 共用
   "app.subtitle": "台灣銀河攝影預報",
+  "support.cta": "☕ 請我喝杯咖啡",
+  "support.text":
+    "這個工具免費、開源，也沒有廣告。你的贊助會用於補貼主機與網域的營運成本，讓它能持續維護更新。",
+  "support.note": "點擊後將前往第三方贊助平台 Portaly 完成付款，本站不會取得你的付款資訊。",
   "app.footer":
     "月亮與銀河時刻為純天文計算（astronomy-engine）；景點光害為粗估值，出發前請再確認路況與天氣。",
   "nav.back": "← 所有景點",
@@ -194,6 +198,10 @@ export type MessageKey = keyof typeof zhTW;
 
 const en: Record<MessageKey, string> = {
   "app.subtitle": "Milky Way forecast for Taiwan",
+  "support.cta": "☕ Buy me a coffee",
+  "support.text":
+    "This tool is free, open source, and ad-free. Support goes toward hosting and domain costs so it can keep running and improving.",
+  "support.note": "Opens Portaly, a third-party platform, to complete the payment. This site never receives your payment details.",
   "app.footer":
     "Moon and Milky Way times are computed astronomically (astronomy-engine). Light-pollution ratings are rough estimates — check road and weather conditions before heading out.",
   "nav.back": "← All spots",
